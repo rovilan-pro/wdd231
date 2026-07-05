@@ -1,0 +1,48 @@
+/* Big Screen*/
+@media screen and (min-width: 768px) {
+
+    /*Hamburger*/
+    #menu{
+        display:none;
+    }
+
+    /*Navigation*/
+    nav{
+        position:static;
+    }
+
+    .navigation{
+
+        display:flex !important;
+
+        position:static;
+
+        width:auto;
+
+        background:none;
+    }
+
+    .navigation li{
+        border:none;
+    }
+
+    .navigation a{
+        padding:.5rem 1rem;
+    }
+
+    .top{
+
+        display:grid;
+
+        grid-template-columns:2fr 1fr;
+
+        gap:1rem;
+    }
+
+    /*Course*/
+    #courses{
+
+        grid-template-columns:repeat(3,1fr);
+    }
+
+}

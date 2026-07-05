@@ -99,7 +99,7 @@ header{
 }
 
 .navigation .active{
-    background:rgba(255,255,255,.25);
+    background: var(--accent);
 }
 
 /*Main*/

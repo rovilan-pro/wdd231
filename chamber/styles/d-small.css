@@ -43,7 +43,7 @@ header {
     align-items: center;
 
     background: var(--accent);
-    color: var(--light);
+    color: var(--dark);
 
     padding: 1rem;
 
@@ -131,6 +131,10 @@ main {
 main h2 {
     margin-bottom: 1rem;
     color: var(--dark);
+}
+
+main h1 {
+    text-align: center;
 }
 
 /* View Buttons */

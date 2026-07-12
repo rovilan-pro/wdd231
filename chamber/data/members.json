@@ -1,0 +1,65 @@
+[
+    {
+        "name":"A+ Services",
+        "address":"Salitran Dasmariñas City",
+        "phone":"0908-775-1528",
+        "website":"https://www.facebook.com/profile.php?id=61573112950515",
+        "image":"logo.jpg",
+        "membership":1,
+        "industry":"Services"
+    },
+    {
+        "name":"Crave & Care",
+        "address":"Salawag Dasmariñas City",
+        "phone":"0927-871-1911",
+        "website":"https://www.facebook.com/craveandcare",
+        "image":"cclogo.png",
+        "membership":2,
+        "industry":"Food"
+    },
+        {
+        "name":"Ponzenada",
+        "address":"Salawag Dasmariñas City",
+        "phone":"0936-335-6803",
+        "website":"https://www.facebook.com/Ponz.jazmines",
+        "image":"plogo.jpg",
+        "membership":1,
+        "industry":"Food"
+    },
+        {
+        "name":"R & C Apparel",
+        "address":"Salawag Dasmariñas City",
+        "phone":"0995-489-0236",
+        "website":"https://www.facebook.com/RCApparelph",
+        "image":"rclogo.png",
+        "membership":1,
+        "industry":"Clothing"
+    },
+        {
+        "name":"Tala Maris",
+        "address":"Salitran Dasmariñas City",
+        "phone":"0908-775-1528",
+        "website":"https://rovilan-pro.github.io/wdd131/project/index.html",
+        "image":"tmlogo.png",
+        "membership":1,
+        "industry":"Clothing Rentals"
+    },
+        {
+        "name":"Mcdonalds",
+        "address":"Salitran Dasmariñas City",
+        "phone":"",
+        "website":"https://www.mcdonalds.com.ph/",
+        "image":"mcdonalds.svg",
+        "membership":3,
+        "industry":"Food"
+    },
+        {
+        "name":"Jolibee",
+        "address":"Salawag Dasmariñas City",
+        "phone":"",
+        "website":"https://www.jollibee.com.ph/",
+        "image":"jollibee.svg",
+        "membership":3,
+        "industry":"Food"
+    }
+]

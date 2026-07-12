@@ -1,0 +1,42 @@
+/* Big Screen */
+@media (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    .navigation a {
+        padding: .5rem 1rem;
+    }
+
+    #members.grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+
+    #members.list .member-card {
+        display: grid;
+        grid-template-columns: 180px 1fr;
+        text-align: left;
+        align-items: center;
+    }
+
+    #members.list img {
+        height: 100%;
+    }
+}

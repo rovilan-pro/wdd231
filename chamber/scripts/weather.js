@@ -41,6 +41,8 @@ function displayCurrentWeather(data) {
     weatherIcon.src = 
     `https://openweathermap.org/img/wn/${icon}@2x.png`;
 
+    weatherIcon.hidden = false;
+
     weatherIcon.alt = 
     current.weather[0].description;
 }

@@ -24,4 +24,20 @@
         padding: .5rem 1rem;
     }
 
+    .hero img {
+        height:450px;
+    }
+
+    .home-grid {
+        grid-template-columns:1fr 1fr;
+    }
+
+    .spotlights {
+        grid-column:1/3;
+    }
+
+    #spotlight-container {
+        grid-template-columns:repeat(3,1fr);
+    }
+
 }

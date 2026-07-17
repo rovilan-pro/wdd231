@@ -123,82 +123,53 @@ header h1 {
 /* Main */
 
 main {
-
     max-width:1200px;
-
     margin:auto;
-
     padding:1rem;
-
 }
 
 
 
 h1,h2,h3 {
-
     color: var(--dark);
-
 }
 
 /* Hero */
 
 
 .hero {
-
     position:relative;
-
     margin-bottom:1.5rem;
-
 }
 
 
 .hero img {
-
     width:100%;
-
     height:350px;
-
     object-fit:cover;
-
     border-radius:10px;
-
 }
 
 
 .hero-text {
-
     position:absolute;
-
     inset:0;
-
     display:flex;
-
     flex-direction:column;
-
     justify-content:center;
-
     align-items:center;
-
     text-align:center;
-
     background:rgba(0,0,0,.45);
-
     color:white;
-
     padding:1rem;
-
     border-radius:10px;
-
 }
 
 
 .hero-text h1,
 .hero-text h2 {
-
     color:white;
-
     margin-bottom:1rem;
-
 }
 
 
@@ -206,24 +177,16 @@ h1,h2,h3 {
 
 
 .cta {
-
     background:var(--primary);
-
     color:white;
-
     padding:.8rem 1.5rem;
-
     border-radius:8px;
-
     font-weight:bold;
-
 }
 
 
 .cta:hover {
-
     background:var(--accent);
-
 }
 
 
@@ -232,11 +195,8 @@ h1,h2,h3 {
 
 
 .home-grid {
-
     display:grid;
-
     gap:1rem;
-
 }
 
 
@@ -246,24 +206,16 @@ h1,h2,h3 {
 .events,
 .weather,
 .spotlights {
-
     background:white;
-
     border:1px solid var(--border);
-
     border-radius:10px;
-
     padding:1rem;
-
 }
 
 
 .events li {
-
     padding:.5rem 0;
-
     border-bottom:1px solid var(--border);
-
 }
 
 
@@ -272,58 +224,39 @@ h1,h2,h3 {
 
 
 .weather {
-
     text-align:center;
-
 }
 
 
 #weather-icon {
-
     width:80px;
-
     margin:0 auto;
-
 }
 
 
 #temperature {
-
     font-size:2rem;
-
     font-weight:bold;
-
     color:var(--primary);
-
 }
 
 
 #description {
-
     text-transform:capitalize;
-
 }
 
 
 #forecast {
-
     margin-top:1rem;
-
     display:grid;
-
     gap:.5rem;
-
 }
 
 
 #forecast p {
-
     background:var(--secondary);
-
     padding:.5rem;
-
     border-radius:5px;
-
 }
 
 
@@ -341,30 +274,19 @@ h1,h2,h3 {
 
 
 .spotlight-card {
-
     border:1px solid var(--border);
-
     border-radius:10px;
-
     padding:1rem;
-
     text-align:center;
-
     background:var(--secondary);
-
 }
 
 
 .spotlight-card img {
-
     width:120px;
-
     height:120px;
-
     object-fit:contain;
-
     margin:1rem auto;
-
 }
 
 
@@ -372,12 +294,9 @@ h1,h2,h3 {
 
 footer {
     margin-top: 2rem;
-
     background: var(--primary);
     color: var(--light);
-
     text-align: center;
-
     padding: 2rem 1rem;
 }
 

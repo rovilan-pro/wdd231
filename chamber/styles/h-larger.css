@@ -1,0 +1,27 @@
+@media (min-width: 768px) {
+
+    #menu {
+        display: none;
+    }
+
+    .navigation {
+        display: block;
+        position: static;
+        width: auto;
+        background: none;
+    }
+
+    .navigation ul {
+        display: flex;
+        gap: 1rem;
+    }
+
+    .navigation li {
+        border: none;
+    }
+
+    .navigation a {
+        padding: .5rem 1rem;
+    }
+
+}

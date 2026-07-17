@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    max-width:600px;
+    margin:auto;
+    padding:2rem;
+}
+
+main{
+    margin-top:2rem;
+}
+
+figure{
+    margin-top:1rem;
+    text-align:center;
+}
+
+img{
+    width:100px;
+}
+
+figcaption{
+    text-transform:capitalize;
+    font-weight:bold;
+}
